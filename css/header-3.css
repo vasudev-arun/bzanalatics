@@ -514,10 +514,9 @@ HEADER (top part of page)
 
 
 
-.header-style3 .top-bar{
+/* .header-style3 .top-bar{
 	padding: 14px 0px;
-    border-bottom: 1px solid rgba(37, 26, 55, 0.1);
-}
+    /* border-bottom: 1px solid rgba(37, 26, 55, 0.1); */
 .header-style3 .top-bar-nav{margin-right: 30px;}
 .header-style3 .top-bar-nav ul{
 	list-style: none;
@@ -557,7 +556,7 @@ HEADER (top part of page)
 	color: var(--primary)
 }
 
-.header-style3 .top-bar .sx-topbar-right{display: flex;}
+.header-style3 .top-bar .sx-topbar-right{display: flex;} */
 
 /*-------------------------------------
 	when header is sticky

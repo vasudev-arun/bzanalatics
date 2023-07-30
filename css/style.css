@@ -2955,8 +2955,7 @@ ol.list-num-count.list-outline-none>li:before {
 }
 
 .img-reflection:hover:after {
-	outline: solid 30px #fff;
-  outline-offset: -30px;
+	outline: solid 30px #000;
 }
 
 
@@ -3977,6 +3976,11 @@ blockquote.author-quote .fa-quote-left {
 /*____BLOG  
 ======================================*/
 
+.blog-image{
+	max-height: 12rem;
+	
+}
+
 .blog-post {
 	position: relative;
 	margin-bottom: 30px;
@@ -4532,10 +4536,11 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 
 }
 
+.footer-logo{
+	max-width: 180%;
+}
 .logo-footer {
 	display: table;
-	width: 170px;
-	height: 70px;
 	vertical-align: middle;
 	padding: 0px 0px 15px 0px;
 	font-size: 36px;
@@ -5171,7 +5176,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 
 .sx-f-nl-section{
 	background-color: #291f3b;
-	padding: 110px 0px 110px 0px;
+	padding: 10px 0px 110px 0px;
 }
 @media only screen and (max-width:991px){
 	.sx-f-nl-section{
@@ -5193,13 +5198,13 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 
 
-.sx-nl-form-inner{display: flex; justify-content: space-between;
+.sx-nl-form-inner{display: flex; justify-content: center;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .sx-nl-form-inner .sx-nl-form-input{
 	width: 100%;
-	font-weight: 400;
-	font-size: 32px;
+	font-weight: 200;
+	font-size: 2rem;
 	line-height: 46px;
 	text-transform: lowercase;
 	background-color: transparent;
@@ -9114,6 +9119,9 @@ New Template Css Start
 .sx-review-count{margin: 0px 10px;}
 
 /*testimonial section 3*/
+.testimonial-3{
+	height: 30rem;
+}
 .testimonial-3{padding: 50px;}
 .testimonial-3 .testimonial-position {
 	font-family: var(--common-family);
